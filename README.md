@@ -57,14 +57,14 @@ docker create \
 >
 >```
 >docker create \
-   --name=plex \
-   --net=host \
-   -e VERSION=latest \
-   -e PUID=0 -e PGID=1002 \
-   -e TZ=Europe/Berlin \
-   -v /mnt/freenas/Docker/plex/config:/config \
-   -v /mnt/freenas/Multimedia/:/data \
-   linuxserver/plex
+>   --name=plex \
+>   --net=host \
+>   -e VERSION=latest \
+>   -e PUID=0 -e PGID=1002 \
+>   -e TZ=Europe/Berlin \
+>   -v /mnt/freenas/Docker/plex/config:/config \
+>   -v /mnt/freenas/Multimedia/:/data \
+>   linuxserver/plex
 >```
 
 ### Starting
@@ -118,15 +118,15 @@ docker create \
 >### My Command
 >```
 >docker create \
-  --name=tvheadend \
-  --net=host \
-  -v /mnt/FreeNAS/Docker/tvheadend/config:/config \
-  -v /mnt/FreeNAS/Docker/tvheadend/recordings:/recordings \
-  -e PGID=1002 -e PUID=0  \
-  -e TZ=Europe/Berlin \
-  -p 9981:9981 \
-  -p 9982:9982 \
-  linuxserver/tvheadend
+>  --name=tvheadend \
+>  --net=host \
+>  -v /mnt/FreeNAS/Docker/tvheadend/config:/config \
+>  -v /mnt/FreeNAS/Docker/tvheadend/recordings:/recordings \
+>  -e PGID=1002 -e PUID=0  \
+>  -e TZ=Europe/Berlin \
+>  -p 9981:9981 \
+>  -p 9982:9982 \
+>  linuxserver/tvheadend
 >```
 
 ###Starting
