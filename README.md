@@ -149,12 +149,12 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ple
 
 Your wizard will look something like this:
 
-![TVH Wizard 1](assets/img/tvh-wizard-1.png)
+![TVH Wizard 1](tvh-wizard-1.png)
 Configure your web and EPG Language as needed.
 
 
-![TVH Wizard 2](assets/img/tvh-wizard-2.png)
+![TVH Wizard 2](tvh-wizard-2.png)
 Set admin login (your later authentification to the WebUI) and user login (to give TVHProxy access to streams).
 
-![TVH Wizard 2](assets/img/tvh-wizard-3.png)
+![TVH Wizard 2](tvh-wizard-3.png)
 Don't mind the additional DVB-C and DVB-T Tuners of my DigitalDevices Tuner Card. If you're only going to use Telekom Entertain you won't see any of them and you just need to set the `Network type` of `Tuner: IPTV` to `IPTV Automatic Network`
