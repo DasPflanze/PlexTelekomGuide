@@ -89,7 +89,7 @@ Now setup your Plex instance after your requirements. Your files are located at 
 
 ## 2. Setting up TVHeadend in Docker
 
-###Creating
+### Creating
 **Used container:** [linuxserver/tvheadend](https://github.com/linuxserver/docker-tvheadend)
 
 To create the TVHeadend Container you need to edit following command to suit your needs.
@@ -129,7 +129,7 @@ docker create \
 >  linuxserver/tvheadend
 >```
 
-###Starting
+### Starting
 
 Start the new created container
 
@@ -137,7 +137,7 @@ Start the new created container
 docker start tvheadend
 ```
 
-###Setup
+### Setup
 
 At first start you will see a **wizard** when accessing the WebUI at `<ip-address>:9981`.
 
