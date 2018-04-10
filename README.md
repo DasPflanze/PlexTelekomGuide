@@ -108,10 +108,10 @@ docker create \
   --net=host \
   -v </path/to/data>:/config \
   -v </path/to/recordings>:/recordings \
-  -e PGID=<gid> -e PUID=<uid>  \
+  -e PGID=<gid> -e PUID=<uid> \
   -e RUN_OPTS=<parameter> \
   -e TZ=<timezone> \
-  --device=/dev/dvb
+  --device=/dev/dvb \
   linuxserver/tvheadend
 ```
 
